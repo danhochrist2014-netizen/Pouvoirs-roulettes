@@ -1,0 +1,17 @@
+name: PouvoirsRoulette
+version: 1.0.0
+main: com.pouvoirs.roulette.PouvoirsPlugin
+api-version: '1.21'
+description: Roulette de pouvoirs a la premiere connexion
+authors: [Toi]
+
+commands:
+  pouvoir:
+    description: Voir ton pouvoir, ouvrir la roulette ou gerer les pouvoirs (admin)
+    usage: /pouvoir [reset|set] [joueur] [pouvoir]
+    aliases: [pouvoirs, power]
+
+permissions:
+  pouvoirs.admin:
+    description: Permet de reset ou donner un pouvoir a un joueur
+    default: op

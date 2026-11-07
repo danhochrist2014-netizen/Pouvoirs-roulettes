@@ -1,0 +1,15 @@
+# ----------------------------------------------------------------------------
+# PouvoirsRoulette - configuration
+# ----------------------------------------------------------------------------
+
+# true  : seuls les joueurs qui se connectent pour la TOUTE PREMIERE fois ont droit a la roulette.
+# false : tout joueur qui n'a pas encore de pouvoir (ex : anciens joueurs au moment
+#         ou tu installes le plugin) aura la roulette a sa prochaine connexion.
+first-join-only: true
+
+# Annoncer a tout le serveur le pouvoir qu'un joueur vient de tirer.
+broadcast: true
+
+# Probabilite de tomber sur un pouvoir COOL (0.0 = jamais, 1.0 = toujours).
+# Le reste du temps, le joueur tombe sur un pouvoir NUL.
+chance-cool: 0.6
